@@ -6,11 +6,11 @@ class DrawerWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Drawer(
-      backgroundColor: Colors.amber,
+      // backgroundColor: Colors.amber,
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.only(
-            topRight: Radius.circular(500),
-            bottomRight: Radius.circular(500)),
+            topRight: Radius.circular(50),
+            bottomRight: Radius.circular(50)),
       ),
     );
   }

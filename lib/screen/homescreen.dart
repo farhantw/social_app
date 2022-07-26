@@ -8,6 +8,7 @@ class Homescreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
+
         Container(
           height: MediaQuery.of(context).size.height * 0.2 - 40,
           child: ListView.builder(
@@ -24,6 +25,9 @@ class Homescreen extends StatelessWidget {
                 );
               }),
         ),
+
+
+
         Container(
             height: MediaQuery.of(context).size.height * 0.6 + 20,
             child: ListView.builder(
